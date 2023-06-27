@@ -14,6 +14,7 @@ import LocalMallTwoToneIcon from '@mui/icons-material/LocalMallTwoTone';
 import AccordionDash from "../components/AccordionDash"
 import "../Dash.css";
 import BarChart from "../charts/BarChart";
+import CountUp from 'react-countup';
 const Home = () => {
   return (
     <>
@@ -30,22 +31,22 @@ const Home = () => {
                
                   <div className="iconstyle"><PaymentTwoToneIcon/>
                   <Typography gutterBottom variant="h5" component="div" sx={{ color:"#ffffff" }}>
-                      $500.00
+                     <CountUp delay={0.2} end={500} duration={0.2}/>
+                      
                     </Typography>
                     <Typography gutterBottom variant="body2" component="div"  sx={{ color:"#ccd1d1" }}>
                       Total Earnings
                     </Typography>
                   </div>
                    
-                  
-               
+
                 </Card>
                 
                 <Card sx={{ minWidth: 49+'%',height:150 }} className="gradientlight">
                  
                     <div className="iconstyle"><LocalMallTwoToneIcon/>
                     <Typography gutterBottom variant="h5" component="div"  sx={{ color:"#ffffff" }}>
-                      $900.00
+                    <CountUp delay={0.2} end={900} duration={0.2}/>
                     </Typography>
                      <Typography gutterBottom variant="body2" component="div"  sx={{ color:"#ccd1d1" }}>
                       Total order

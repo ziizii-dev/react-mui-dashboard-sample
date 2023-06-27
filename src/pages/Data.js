@@ -8,7 +8,7 @@ import StarsIcon from "@mui/icons-material/Stars";
 export const Routes = [
     {
         text: "Dasboard",
-        route: "dashboard",
+        route: "",
         icon: <Dashboard style={{ color: "#000000" }} />,
     },
     {
