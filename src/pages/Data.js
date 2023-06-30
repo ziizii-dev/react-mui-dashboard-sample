@@ -4,6 +4,7 @@ import AccessibleIcon from "@mui/icons-material/Accessible";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
 import PersonIcon from "@mui/icons-material/Person";
 import StarsIcon from "@mui/icons-material/Stars";
+import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
 
 export const Routes = [
     {
@@ -22,9 +23,9 @@ export const Routes = [
         icon: <AccessibleIcon style={{ color: "#000000" }} />,
     },
     {
-        text: "About",
-        route: "about",
-        icon: <AccessibleIcon style={{ color: "#000000" }} />,
+        text: "Product",
+        route: "product",
+        icon: <ProductionQuantityLimitsIcon style={{ color: "#000000" }} />,
     },
     {
         text: "Setting",
